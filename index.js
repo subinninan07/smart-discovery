@@ -44,7 +44,6 @@ const init = async () => {
       version: Pack.version,
       description: 'API documentation for Smart Discovery service'
     },
-    schemes: ['http'],
     grouping: 'tags',
     securityDefinitions: {
       jwt: {
